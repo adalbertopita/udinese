@@ -8,8 +8,6 @@ const getUrlInfo = (data) => {
   const image_alt = $('meta[property="og:image_alt"]').attr('content');
   const url = $('meta[property="og:url"]').attr('content');
 
-  console.log(image);
-
   return { 
     title, 
     description, 
